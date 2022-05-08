@@ -1,0 +1,428 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.pagina1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./IMG/índice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Pai01 {
+    padding: 50px;
+    color: white;
+    align-items: center;
+
+}
+
+.Titulo_maior {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-size: 48px;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 17px;
+    font-family: 'Poppins';
+    font-size: 38px;
+    margin-top: -20px;
+    margin-left: 7px;
+}
+
+.canos {
+    display: flex;
+    flex-direction: row;
+    margin-top: -150px;
+    margin-left: 430px;
+}
+
+.LoremIpsum {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: -4px;
+    font-family: 'Poppins';
+    font-size: 48px;
+    color: white;
+}
+
+.paragrafo {
+    text-align: center;
+    margin-left: 420px;
+    margin-top: -25px;
+    max-width: 510px;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.ferramentas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+    gap: 120px;
+}
+
+.Soluções {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    font-family: 'Poppins';
+    color: white;
+}
+
+.BotaoHelp {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btnHelp {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    background-color: #50B2EA;
+    color: white;
+
+
+
+}
+
+input,
+button,
+submit {
+    border: none;
+}
+
+.Sreams {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.Pai2 {
+    display: flex;
+    height: 100%;
+}
+
+.Fundo_Branco {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.Fundo_Azul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 50%;
+    background-color: #50B2EA;
+}
+
+.quadrado1 {
+    margin-top: 100px;
+    width: 395px;
+    height: 350px;
+    border-radius: 7%;
+    background-color: white;
+}
+
+.homem1 {
+    height: 70%;
+
+}
+
+.quadradoAzul {
+    height: 70%;
+    width: 60%;
+    background-color: #50B2EA;
+    border-radius: 7% 0% 0% 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.Texting {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Titulo3 {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.textinho3 {
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #19435A;
+    max-width: 350px;
+}
+
+.row {
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.textolorem {
+    padding-left: 10px;
+}
+
+.arrumarbotao {
+    margin-top: -4%;
+}
+
+.borda {
+    border: 7px solid #FFFFFF;
+}
+
+.pagina3 {
+    width: 100%;
+    height: 96vh;
+    background-image: url("IMG/fundopage3.png");
+    background-repeat: no-repeat;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ajeitos {
+    height: 200px;
+    /* gap: 110px; */
+    margin-top: 100px;
+}
+
+.quadradoAlinhados {
+    display: flex;
+    height: 30%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Solutions {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-size: 35px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Pai3 {
+    height: 60%;
+    width: 100%;
+    background-image: url(./IMG/fundopage3.png);
+}
+
+.Pai4 {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.alinhasferramnetas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 200px;
+}
+
+.textdaferramenta1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #50B2EA;
+}
+
+.textodaferramenta2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #19435A;
+}
+
+.ajeitarTextos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    gap: 60px;
+    max-width: 1040px;
+
+    /* margin-bottom: 100px;
+    margin-left: 12%; */
+}
+
+.divpai5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.ferramentamaior {
+    width: 180px;
+    height: 180px;
+}
+
+.pagina4 {
+    background-color: #50B2EA;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.separarTexto {
+    /* margin-top: 200px; */
+}
+
+.textoprimeiropagina3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.quadrado {
+    width: 140px;
+    height: 140px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 21px;
+    transform: rotate(-45deg);
+}
+
+.ferramenta2 {
+    transform: rotate(45deg);
+}
+
+.Testimonials {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.conversa1 {
+    width: 577px;
+    height: 233px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+    border-radius: 40px;
+    margin: 30px;
+
+    display: flex;
+}
+
+.Pai6 {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+.filho2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.texto-balao {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+.mulher-foto {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.nome {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #50B2EA;
+    padding-left: 5px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.textonome {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #19435A;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.estrelas {
+    margin-left: 5px;
+}
+
+.pagina5 {
+    width: 100%;
+    height: 70vh;
+}
